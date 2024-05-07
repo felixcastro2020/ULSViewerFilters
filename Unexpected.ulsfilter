@@ -1,0 +1,7 @@
+<FilterFile>
+  <FilterGroup>
+    <FilterContainer Operand="And">
+      <FieldFilter Column="Level" Operation="Contains" Text="Unexpected" />
+    </FilterContainer>
+  </FilterGroup>
+</FilterFile>
