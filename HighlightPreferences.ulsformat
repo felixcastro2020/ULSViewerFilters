@@ -1,0 +1,88 @@
+<FormatFile>
+  <FormatCollection>
+    <Format BackColor="SpringGreen" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="EventID" Operation="Contains" Text="fa43" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="HotPink" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Level" Operation="Contains" Text="Unexpected" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Thistle" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="CheckInFile" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Blue" ForeColor="White">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Regex Match" Text="(Execution Time=)([2-9]|[0-9]{2,})([0-9]{3,}\.)" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Failed" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="DarkCyan" ForeColor="White">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="proc_" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Orange" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="Or">
+            <FieldFilter Column="Message" Operation="Contains" Text="error" />
+          </FilterContainer>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="not" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Yellow" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="SqlCommand:" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="SkyBlue" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="dbo.proc_getNewObjects" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+  </FormatCollection>
+</FormatFile>
