@@ -1,0 +1,7 @@
+<FilterFile>
+  <FilterGroup>
+    <FilterContainer Operand="And">
+      <FieldFilter Column="EventID" Operation="Regex Match" Text="46ri|fa43" />
+    </FilterContainer>
+  </FilterGroup>
+</FilterFile>

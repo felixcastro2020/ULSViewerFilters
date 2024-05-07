@@ -1,0 +1,7 @@
+<FilterFile>
+  <FilterGroup>
+    <FilterContainer Operand="And">
+      <FieldFilter Column="Message" Operation="Contains" Text="slow query duration" />
+    </FilterContainer>
+  </FilterGroup>
+</FilterFile>

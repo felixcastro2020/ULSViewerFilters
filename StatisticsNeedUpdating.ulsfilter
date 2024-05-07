@@ -1,0 +1,7 @@
+<FilterFile>
+  <FilterGroup>
+    <FilterContainer Operand="And">
+      <FieldFilter Column="EventID" Operation="Contains" Text="e9bf, cm1y, dbl2, cm1x" />
+    </FilterContainer>
+  </FilterGroup>
+</FilterFile>

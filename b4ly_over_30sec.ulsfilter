@@ -1,0 +1,10 @@
+<FilterFile>
+  <FilterGroup>
+    <FilterContainer Operand="And">
+      <FieldFilter Column="EventID" Operation="Contains" Text="b4ly" />
+    </FilterContainer>
+    <FilterContainer Operand="And">
+      <FieldFilter Column="Message" Operation="Regex Match" Text="(Execution Time=)([3-9]{2,}|[0-9]{3,})([0-9]{3,}\.)" />
+    </FilterContainer>
+  </FilterGroup>
+</FilterFile>
